@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<HBox spacing="10" xmlns:fx="http://javafx.com/fxml/1">
+    <Label fx:id="trackLabel" styleClass="track-label"/>
+    <Pane HBox.hgrow="ALWAYS"/>
+    <!-- ComboBox -->
+    <FlowPane fx:id="tagContainer" alignment="CENTER_LEFT" minWidth="15" hgap="5" vgap="5" styleClass="tag-container"/>
+
+    <Button fx:id="addTagButton" styleClass="add-tag-button">
+        <graphic>
+            <ImageView fitHeight="16" preserveRatio="true">
+                <Image url="/icons/tag.png"/>
+            </ImageView>
+        </graphic>
+    </Button>
+    <ComboBox fx:id="playlistComboBox" promptText="Select a playlist" styleClass="playlist-combo-box" prefWidth="150"/>
+    <Button fx:id="addToPlaylistButton" styleClass="add-button">
+        <graphic>
+            <ImageView fx:id="addToPlaylistIcon" fitHeight="18" preserveRatio="true">
+                <Image url="/icons/addToPlaylistIcon.png"/>
+            </ImageView>
+        </graphic>
+    </Button>
+
+    <Button fx:id="button" text="+" styleClass="add-button"/>
+    <Button fx:id="addFavButton" styleClass="add-button">
+        <graphic>
+            <ImageView fitHeight="18" preserveRatio="true">
+                <Image url="/icons/heart.png"/>
+            </ImageView>
+        </graphic>
+    </Button>
+</HBox>

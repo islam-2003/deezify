@@ -1,0 +1,35 @@
+[
+  {
+    "id": 3,
+    "name": "ROCK !",
+    "description": "Rock Songs",
+    "color": {
+      "red": 0.7019608020782471,
+      "green": 0.501960813999176,
+      "blue": 0.10196078568696976,
+      "opacity": 1.0
+    }
+  },
+  {
+    "id": 2,
+    "name": "GAMES",
+    "description": "Games OST",
+    "color": {
+      "red": 0.501960813999176,
+      "green": 0.3019607961177826,
+      "blue": 0.501960813999176,
+      "opacity": 1.0
+    }
+  },
+  {
+    "id": 1,
+    "name": "INSPIRING",
+    "description": "Inspiring music",
+    "color": {
+      "red": 0.10196078568696976,
+      "green": 0.0,
+      "blue": 0.40784314274787903,
+      "opacity": 1.0
+    }
+  }
+]

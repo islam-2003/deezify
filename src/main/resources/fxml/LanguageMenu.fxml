@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../css/style.css" styleClass="root-pane">
+    <HBox spacing="10" alignment="CENTER_RIGHT"
+          AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+        <Region fx:id="spacer" HBox.hgrow="ALWAYS"/>
+        <ComboBox fx:id="languageComboBox" prefWidth="80" styleClass="language-combo-box"/>
+    </HBox>
+</AnchorPane>

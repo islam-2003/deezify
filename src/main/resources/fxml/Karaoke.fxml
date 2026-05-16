@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.TextFlow?>
+<AnchorPane prefHeight="256.0" prefWidth="340.0" styleClass="root-pane" stylesheets="@../css/style.css"
+            xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+
+    <Label fx:id="karaokeLabel" styleClass="karaoke-label" text="Karaoke" AnchorPane.leftAnchor="20.0"
+           AnchorPane.topAnchor="10.0"/>
+
+    <Label fx:id="statusLabel" layoutX="20.0" layoutY="45.0" prefHeight="25.0" prefWidth="355.0"
+           AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="45.0"/>
+
+    <TextFlow fx:id="lyricsTextFlow" styleClass="karaoke-Text" layoutX="22.0" layoutY="116.0" prefHeight="60.0"
+              prefWidth="344.0" textAlignment="CENTER" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="22.0"
+              AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="116.0"/>
+
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2"
+            xmlns:fx="http://javafx.com/fxml/1"
+            stylesheets="@../css/style.css" styleClass="playlist-manager">
+
+    <top>
+        <Label text="Playlist Manager" styleClass="playlist-title"/>
+    </top>
+
+    <center>
+        <VBox spacing="10">
+            <HBox spacing="10" alignment="CENTER_RIGHT">
+                <TextField fx:id="playlistNameField" promptText="Enter playlist name" styleClass="playlist-text-field"
+                           HBox.hgrow="ALWAYS"/>
+                <Button fx:id="addPlaylistButton" text="Add" styleClass="playlist-button"/>
+            </HBox>
+            <ListView fx:id="playlistNamesListView" styleClass="playlist-list-view"/>
+            <Button fx:id="removePlaylistButton" text="Delete Playlist" styleClass="playlist-button"/>
+        </VBox>
+    </center>
+
+</BorderPane>

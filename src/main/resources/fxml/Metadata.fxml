@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="256.0" prefWidth="340.0" styleClass="root-pane" stylesheets="@../css/style.css"
+            xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <ComboBox fx:id="fileNameComboBox" layoutX="25.0" layoutY="26.0" prefWidth="300.0" AnchorPane.leftAnchor="20.0"
+              AnchorPane.rightAnchor="20.0" styleClass="metadata-combobox"/>
+    <TextField fx:id="name" layoutX="52.0" layoutY="77.0" promptText="Name" styleClass="metadata-textfield"/>
+    <TextField fx:id="artist" layoutX="52.0" layoutY="116.0" promptText="Artist" styleClass="metadata-textfield"/>
+    <TextField fx:id="album" layoutX="52.0" layoutY="153.0" promptText="Album" styleClass="metadata-textfield"/>
+    <Button fx:id="confirm" layoutX="52.0" layoutY="211.0" mnemonicParsing="false" text="Confirm"
+            AnchorPane.bottomAnchor="20.0" styleClass="metadata-button"/>
+</AnchorPane>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Favoris Globauux",
+    "tracks": [
+      1,
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Classics",
+    "tracks": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Maxime's Favorite",
+    "tracks": [
+      2,
+      4
+    ],
+    "owner": 2,
+    "favorite": true
+  }
+]

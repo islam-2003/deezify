@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane fx:id="anchorPane" prefHeight="256.0" prefWidth="340.0" styleClass="root-pane"
+            stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1">
+
+    <Label fx:id="visualizerLabel" styleClass="visualizer-label" text="Zôlis Dessins" AnchorPane.leftAnchor="20.0"
+           AnchorPane.topAnchor="10.0"/>
+
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane fx:id="mainContainer" prefHeight="400.0" prefWidth="800.0" stylesheets="@/css/style.css"
+            xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <!-- Top: Navigation buttons -->
+    <top>
+        <VBox fx:id="topContainer">
+            <HBox spacing="10" alignment="CENTER">
+                <Button fx:id="libraryButton" styleClass="library-menu" text="Library"/>
+                <Button fx:id="playlistButton" styleClass="playlist-menu" text="Playlist"/>
+                <Button fx:id="playQueueButton" styleClass="play-queue-menu" text="Play Queue"/>
+                <Button fx:id="metadataButton" styleClass="metadata-menu" text="Metadata"/>
+                <Button fx:id="tagButton" styleClass="tag-menu" text="Tag"/>
+                <Button fx:id="karaokeButton" styleClass="karaoke-menu" text="Karaoke"/>
+                <Button fx:id="visualizerButton" styleClass="visualizer-menu" text="Zôlis Dessins"/>
+                <Button fx:id="signUpButton" styleClass="SignUp-menu" text="SignUp"/>
+            </HBox>
+        </VBox>
+    </top>
+</BorderPane>

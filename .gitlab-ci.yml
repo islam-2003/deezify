@@ -1,0 +1,13 @@
+image: maven:3.9.5-eclipse-temurin-17
+
+stages:
+  - test
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
+
+test:
+  stage: test
+  script:
+    - mvn test
+
